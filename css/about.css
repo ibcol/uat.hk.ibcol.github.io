@@ -36,9 +36,3 @@
 .readMore {
   color: #232323;
 }
-
-@media (max-width: 768px) {
-  .carousel-title {
-    font-size: 30px;
-  }
-}

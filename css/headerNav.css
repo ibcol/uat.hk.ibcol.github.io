@@ -3,16 +3,6 @@
   padding-bottom: 150px;
 }
 
-.carousel-title {
-  font-size: 60px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.1;
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .s-header {
   z-index: 500;
   width: 100%;
@@ -65,4 +55,14 @@
   -webkit-box-shadow: 0 4px 8px -9px black;
   -moz-box-shadow: 0 4px 8px -9px black;
   box-shadow: 0 4px 8px -9px black;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 30px;
+  }
+  .parallax-content {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
 }

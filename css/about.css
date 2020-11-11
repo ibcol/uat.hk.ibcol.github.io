@@ -1,0 +1,44 @@
+.post-content.with-background {
+  background-color: #fff;
+}
+
+.post-content.with-background {
+  padding: 3rem;
+  margin-top: 0;
+  background: #fff;
+}
+
+.post-title a {
+  font-weight: 500;
+  color: #000;
+}
+
+.post-info {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #999;
+  width: 100%;
+}
+
+.post-info {
+  padding: 0;
+  margin-right: 0.2rem;
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+}
+
+.readMore {
+  color: #232323;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 30px;
+  }
+}

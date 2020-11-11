@@ -1,1 +1,547 @@
-hello world!
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HK-BCOL 2021 Hong Kong Blockchain Olympiad | IBCOL 2021 International Blockchain Olympiad</title>
+    <link rel="icon" href="./images/logo/IBCOL-HK.png" type="image/gif" sizes="16x16">
+    <meta name="description"
+        content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. For IBCOL 2021, the HK-BCOL will select up to 12 projects to represent Hong Kong." />
+    <meta name="author" content="" />
+    <meta property="og:image" content="./images/logo/IBCOL-HK.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/gbRemake.css" />
+    <link rel="stylesheet" href="./css/dropDown.css" />
+    <link rel="stylesheet" href="./css/headerNav.css" />
+    <link rel="stylesheet" href="./css/enlargeImage.css" />
+
+    <script src="./js/modernizr.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header class="s-header-index one-edge-shadow " id="s-header-index">
+        <div class="header-logo ad">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo/resized/IBCOL HK Horizontal (dark).png" class="d-block" id="white-logo"
+                    alt="IBCOL: International Blockchain Olympiad" />
+
+                <img src="images/logo/resized/IBCOL HK Horizontal.png" class="d-none" id="black-logo"
+                    alt="IBCOL: International Blockchain Olympiad" />
+            </a>
+        </div>
+        <div class="desktop-nav" id="desktop-nav">
+            <ul class="nav_list text-white1" id="desktop-nav-list">
+                <li class="dropdown" id="desktop-nav-dropdown">
+                    <a class="dropbtn " id="about-btn">About ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./about-hk-bcol.html">About HKBCOL</a>
+                        <a href="https://2018.hk.ibcol.org/">HKBCOL 2018</a>
+                        <a class="" href="http://2019.ibcol.org/">HKBCOL 2019</a>
+                        <a href="https://2020.hk.ibcol.org/">HKBCOL 2020</a>
+                        <a href="https://2021.hk.ibcol.org/">HKBCOL 2021</a>
+                    </div>
+                </li>
+                <!-- <li class="dropdown">
+                    <a class="dropbtn" onclick="window.location.href='./program.html';">Program ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Training & Mentorship</a>
+                        <a href="#">HKBCOL & IBCOL Finals</a>
+                    </div>
+                </li> -->
+                <!-- <li><a class="NavLinkComponent text-white" route="" href="./program.html" class="">Program</a></li>
+                <li><a class="NavLinkComponent text-white" route="" href="./rules.html" class="">Rules</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn text-white">Registration ▾</a>
+                    <div class="dropdown-content">
+                        <a href="https://bit.ly/32RYUOl" class="">Training</a>
+                        <a class="disable">Mentorship </a>
+                        <a class="disable">HKBCOL Finals</a>
+                        <a href="http://t.ly/ZBkn" class="">Special Event</a>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+
+        <nav class="header-nav">
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <div class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li>
+                        <h2 class="text-white my-0">About ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="https://2018.hk.ibcol.org/">HKBCOL 2018</a></li>
+                    <li><a class="NavLinkComponent" href="http://2019.ibcol.org/">HKBCOL 2019</a></li>
+                    <li><a class="NavLinkComponent mb-2" href="https://2020.hk.ibcol.org/">HKBCOL 2020</a></li>
+
+                    <!-- <li>
+                        <h2 class="my-0"><a class="NavLinkComponent" href="./program.html">Program</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="my-0"><a class="NavLinkComponent mb-2" href="./rules.html">Rules</a></h2>
+                    </li>
+
+                    <li>
+                        <h2 class="text-white my-0">Registration ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="https://bit.ly/32RYUOl">Training</a></li>
+                    <li><a class="NavLinkComponent disable2">Mentorship </a></li>
+                    <li><a class="NavLinkComponent disable2">HKBCOL Finals</a></li>
+                    <li><a class="NavLinkComponent" href="http://t.ly/ZBkn" class="">Special Event</a></li> -->
+                </ul>
+            </div>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon bg-white" id="header-menu-icon"></span>
+        </a>
+    </header>
+
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="./images/hk2.png"
+        data-natural-width="3000" data-natural-height="2000" data-position-y="center">
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="home-content">
+            <div class="row home-content__main">
+                <h1 class="s-homeHeaderTextColor w100 left" style="text-shadow: 8px 2px 2px rgba(000, 000, 000, 0.4);">
+                    Invest
+                    in Blockchain Skills and Futureproof Your Career
+                </h1>
+
+                <div class="s-homeTextColor"
+                    style="text-shadow: 8px 2px 2px rgba(000, 000, 000, 0.4); text-align: left !important;">The best
+                    time to
+                    start was last year; the second best time is now!
+                </div>
+
+                <a href="./about-hk-bcol.html" class="mt-4 btn-theme btn-theme-sm btn-white-brd text-uppercase">Learn
+                    More</a>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="s-section target-section">
+        <div class="row section-header">
+            <div class="photoTitle2 text-center w-100">
+                <h2 style="all:unset;">Our Sponsors</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Funded-by-HSBC-for-light-bg.png" class="sponsorImg">
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Organised-by-CityU-for-light-bg-colour.png" class="sponsorImg">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Strategic-Partner-HKBCS-for-light-bg.png" class="sponsorImg">
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2020-Support-organisation-OGCIO-for-light-bg-color.png"
+                    class="sponsorImg">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="s-section target-section">
+        <div class="row section-header">
+            <div class="photoTitle2 text-center w-100">
+                <h2 style="all:unset;">Timeline of HKBCOL and IBCOL</h2>
+            </div>
+
+            <!-- <div class="text-center w-100">
+                <h3 style="all:unset;">
+                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam aliquam, porta orci
+                        id,
+                        elementum neque</b>
+                </h3>
+            </div> -->
+
+            <div class="mt-5">
+                <img id="myImg" src="./images/index/timeline_temp.png">
+
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section class="s-section target-section">
+        <div class="row section-header">
+            <div class="photoTitle2 text-center w-100">
+                <h2 style="all:unset;">Winner Prize of HKBCOL and IBCOL</h2>
+            </div>
+
+            <div class="row w-100 justify-content-center mt-5">
+                <div class="col-md-5">
+                    <div class="row w-100 justify-content-center">
+                        <h3 style="all:unset;" class="w-100 text-center text-dark"><b>HKBCOL</b></h3>
+
+                        <div class="w-100 justify-content-center row">
+                            <img src="./images/index/hkbcol_award.png"
+                                style="width: 150px; height: 150px; text-align: center;">
+                        </div>
+
+
+                        <div class="w-100 justify-content-center row">
+                            <ul class="mb-2">
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                            </ul>
+                        </div>
+                        <a href="https://2021.hk.ibcol.org/">Visit 2021 HKBCOL</a>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mt-4 mt-md-0">
+                    <div class="row w-100 justify-content-center">
+                        <h3 style="all:unset;" class="w-100 text-center text-dark"><b>IBCOL</b></h3>
+
+                        <div class="w-100 justify-content-center row">
+                            <img src="./images/index/ibcol_award.png"
+                                style="width: 150px; height: 150px; text-align: center;">
+                        </div>
+
+
+                        <div class="w-100 justify-content-center row">
+                            <ul class="mb-2">
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                                <li>Gold Medal - 4096USD</li>
+                            </ul>
+                        </div>
+                        <a href="https://www.ibcol.org/">Visit 2021 IBCOL</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s-section target-section">
+        <div class="row section-header">
+            <div class="photoTitle2 text-center w-100">
+                <h2 style="all:unset;">Get started for HKBCOL</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="block-1-3 icon">
+                <div class="col-block col-b-12">
+                    <div class="countries">
+                        <div class="landingSectionCentre">
+                            <i class="material-icons blue">developer_mode</i>
+                            <i class="material-icons yellow">widgets</i>
+                            <i class="material-icons black">devices</i>
+                            <br> <i class="material-icons green">storage</i>
+                            <i class="material-icons red">dock</i>
+                        </div>
+                        <div class="countriesName landingSectionCentre">
+                            <h5><b>Tutorial Support</b></h5>
+                            <p class="colorBk pl-5 pr-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum at diam aliquam, porta orci id, elementum neque. <a href="">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-block col-b-12">
+                    <div class="countries">
+                        <div class="landingSectionCentre">
+                            <i class="material-icons blue">face</i> <i class="material-icons yellow">face</i> <i
+                                class="material-icons black">face</i> <br> <i class="material-icons green">face</i> <i
+                                class="material-icons red">face</i> <i class="material-icons purple">face</i></div>
+                        <div class="countriesName landingSectionCentre">
+                            <h5>Mentorship Support</h5>
+                            <p class="colorBk pl-5 pr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum at diam aliquam, porta orci id, elementum neque. <a href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-block col-b-12">
+                    <div class="countries">
+                        <div class="landingSectionCentre">
+                            <i class="material-icons blue">show_chart</i> <i
+                                class="material-icons black">account_balance</i> <i
+                                class="material-icons red">local_hospital</i> <br> <i
+                                class="material-icons yellow">local_shipping</i> <i
+                                class="material-icons green">color_lens</i></div>
+                        <div class="countriesName landingSectionCentre">
+                            <h5>Documentation Support</h5>
+                            <p class="colorBk pl-5 pr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum at diam aliquam, porta orci id, elementum neque. <a href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="s-section target-section">
+        <div class="row section-header">
+            <div class="photoTitle2 text-center w-100">
+                <h2 style="all:unset;">Join Us</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="block-1-2 block-tab-full">
+                <div class="col-block no-results">
+                    <div class="item-process__text" style="border-radius: 0.375rem;">
+                        <h1 class="mb-4 w-100 text-center">Recruitment</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam aliquam, porta
+                            orci id, elementum neque. Morbi arcu sapien, volutpat quis finibus quis, facilisis rhoncus
+                            nisi. Praesent quis tellus convallis, tempor augue at, mattis ipsum. <a href="">Read
+                                More</a>
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <button type="button" class="btn btn-primary btn-blue">Primary</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-block get-results">
+                    <div class="item-process__text">
+                        <h1 class="mb-4 w-100 text-center">Community</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam aliquam, porta
+                            orci id, elementum neque. Morbi arcu sapien, volutpat quis finibus quis, facilisis rhoncus
+                            nisi. Praesent quis tellus convallis, tempor augue at, mattis ipsum.
+                        </p>
+
+
+                        <div class="row justify-content-center">
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-section target-section">
+    </section>
+
+    <!-- <div class="home-content__button aboveFooterBtn">
+        <a href="https://bit.ly/32RYUOl" target="_blank" class="btn btn--primary btn--large fs18">Register for
+            Training</a>
+        <a href="https://www.ibcol.org/index.html" target="_blank" class="btn btn--large fs18">About IBCOL </a>
+    </div> -->
+
+
+    <footer class="paddingAdjustedFooter">
+        <div class="ss-go-top"></div>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 mt-3 ">
+                <div class="footerHeaderText"><b>About Us</b> </div>
+                <div class="">
+                    <p class="footerParaText">The International Blockchain Olympiad (IBCOL) is an annual global
+                        competition inviting
+                        current and recent students to propose solutions for real-world problems with blockchain
+                        technology </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 mt-3 ">
+                <div class=" footerHeaderText"><b>Follow Us</b> </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="footerParaText">Follow the International Blockchain Olympiad (IBCOL) on the follow
+                            social media
+                            channels</p>
+                    </div>
+                    <br>
+                    <div class="col-12 mb-4">
+                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg"
+                                src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img
+                                class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg"
+                                src="./images/sm/tt.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg"
+                                src="./images/sm/fb.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg"
+                                src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
+                </div>
+                <div class="col-12 mb-4 mt-4">
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 mt-3">
+                <div class=" footerHeaderText"><b>Contact Us</b> </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="footerParaText mb-4">Hong Kong Blockchain Olympiad<br>
+                            <a href=""><b>hk@ibcol.org</b></a></p>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="footerParaText">2021 International Blockchain Olympiad<br>
+                            <a href=""><b>2021@ibcol.org</b></a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-full ss-copyright mt-5 colorWt2"><span>Copyright © 2016-2021 International Blockchain
+                    Olympiad. All
+                    rights
+                    reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Java Script
+        ================================================== -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/function.js"></script>
+    <script>
+        /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches(".dropbtn")) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                    }
+                }
+            }
+        };
+
+    </script>
+
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                var aTop = $('.ad').height();
+                if ($(this).scrollTop() >= aTop) {
+                    var whiteLogo = $('#white-logo').addClass('d-none');
+                    whiteLogo = $('#white-logo').removeClass('d-block');
+
+                    var blackLogo = $('#black-logo').addClass('d-block');
+                    blackLogo = $('#black-logo').removeClass('d-none');
+
+                    $('#s-header-index').addClass('bg-white');
+                    $('#desktop-nav-list').removeClass('text-white1');
+                    $('#desktop-nav-list').addClass('text-black1');
+
+                    // MB
+                    $('#header-menu-icon').addClass('bg-black');
+                    $('#header-menu-icon').removeClass('bg-white');
+
+
+                    // alert('ad just passed.');
+                } else {
+                    var whiteLogo = $('#white-logo').removeClass('d-none');
+                    whiteLogo = $('#white-logo').addClass('d-block');
+
+                    var blackLogo = $('#black-logo').removeClass('d-block');
+                    blackLogo = $('#black-logo').addClass('d-none');
+
+                    $('#s-header-index').removeClass('bg-white');
+                    $('#desktop-nav-list').addClass('text-white1');
+                    $('#desktop-nav-list').removeClass('text-black1');
+
+                    // MB
+                    $('#header-menu-icon').addClass('bg-white');
+                    $('#header-menu-icon').removeClass('bg-black');
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

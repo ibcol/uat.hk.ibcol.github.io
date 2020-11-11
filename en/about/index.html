@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../.././css/base.css" />
     <link rel="stylesheet" href="../.././css/vendor.css" />
     <link rel="stylesheet" href="../.././css/main.css" />
+    <link rel="stylesheet" href="../.././css/dropDown.css" />
     <link rel="stylesheet" href="../.././css/gbRemake.css" />
     <link rel="stylesheet" href="../.././css/about.css" />
     <link rel="stylesheet" href="../.././css/headerNav.css" />
@@ -52,18 +53,37 @@
                     alt="IBCOL: International Blockchain Olympiad" />
             </a>
         </div>
-        <div class="desktop-nav">
-            <ul class="nav_list">
-                <li><a class="NavLinkComponent pageAnchorColor" route="" href="about-hk-bcol.html">About</a></li>
-                <li><a class="NavLinkComponent " route="" href="how-to-join-hk-bcol.html">How To Join</a></li>
-                <li><a class="NavLinkComponent " route="" href="get-started-with-hk-bcol.html">Get Started</a>
+
+        <div class="desktop-nav" id="desktop-nav">
+            <ul class="nav_list text-black1" id="desktop-nav-list">
+                <li class="dropdown" id="desktop-nav-dropdown">
+                    <a class="dropbtn " id="about-btn">About ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./en/about/index.html">About HKBCOL</a>
+                        <a href="https://2018.hk.ibcol.org/">HKBCOL 2018</a>
+                        <a class="" href="http://2019.ibcol.org/">HKBCOL 2019</a>
+                        <a href="https://2020.hk.ibcol.org/">HKBCOL 2020</a>
+                        <a href="https://2021.hk.ibcol.org/">HKBCOL 2021</a>
+                    </div>
                 </li>
-                <li><a class="NavLinkComponent " route="" href="schedule.html">Schedule</a>
-                </li>
-                <li><a class="NavLinkComponent" route="" href="faq-hk-bcol.html" class="">FAQ</a></li>
-                <li><a class="NavLinkComponent " route="" href="contact-hk-bcol.html" class="">Contact</a></li>
-                <li class=""><a class="NavLinkComponent regBorder2 colorWt2" route="" href="visitor-registration.html"
-                        target="_blank">REGISTER</a></li>
+                <!-- <li class="dropdown">
+                    <a class="dropbtn" onclick="window.location.href='./program.html';">Program ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Training & Mentorship</a>
+                        <a href="#">HKBCOL & IBCOL Finals</a>
+                    </div>
+                </li> -->
+                <!-- <li><a class="NavLinkComponent text-white" route="" href="./program.html" class="">Program</a></li>
+                <li><a class="NavLinkComponent text-white" route="" href="./rules.html" class="">Rules</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn text-white">Registration ▾</a>
+                    <div class="dropdown-content">
+                        <a href="https://bit.ly/32RYUOl" class="">Training</a>
+                        <a class="disable">Mentorship </a>
+                        <a class="disable">HKBCOL Finals</a>
+                        <a href="http://t.ly/ZBkn" class="">Special Event</a>
+                    </div>
+                </li> -->
             </ul>
         </div>
 
@@ -71,7 +91,15 @@
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <!-- <li><a href="about-hk-bcol.html">About</a></li> -->
+                    <li>
+                        <h2 class="text-white my-0">About ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="./en/about/index.html">About HKBCOL</a></li>
+                    <li><a class="NavLinkComponent" href="https://2018.hk.ibcol.org/">HKBCOL 2018</a></li>
+                    <li><a class="NavLinkComponent" href="http://2019.ibcol.org/">HKBCOL 2019</a></li>
+                    <li><a class="NavLinkComponent" href="https://2020.hk.ibcol.org/">HKBCOL 2020</a></li>
+                    <li><a class="NavLinkComponent mb-2" href="https://2021.hk.ibcol.org/">HKBCOL 2021</a></li>
+
                     <!-- <li><a href="how-to-join-hk-bcol.html">How To Join</a></li>
                     <li><a href="get-started-with-hk-bcol.html">Get Started</a></li> -->
                     <!-- <li><a href="schedule.html">Schedule</a></li>

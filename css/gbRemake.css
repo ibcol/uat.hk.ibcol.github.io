@@ -1,5 +1,5 @@
-.responsive {
-  width: 100%;
+.responsive2 {
+  width: 80%;
   height: auto;
 }
 
@@ -736,6 +736,11 @@
 
   .btnFixfs {
     font-size: 12px !important;
+  }
+
+  .responsive2 {
+    width: 100%;
+    height: auto;
   }
 }
 

@@ -1,0 +1,11 @@
+.job-card {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 9px 24px 0 rgba(26, 47, 106, 0.05);
+  padding: 30px 25px;
+  border: 1px solid #dce5e7;
+  transform: translateY(0);
+  -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
